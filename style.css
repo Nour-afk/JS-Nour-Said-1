@@ -1,0 +1,82 @@
+#game {
+  position: relative;
+
+  width: 100%;
+  height: 100vh;
+
+  background: url("img/fond\ espace\ .jpeg");
+  background-size: cover;
+  overflow: hidden;
+}
+
+#ground {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+
+  width: 100vw;
+  height: 100px;
+
+  background: url("img/ground.jpeg");
+  background-repeat: repeat-x;
+  background-size: cover;
+}
+
+#player {
+  position: absolute;
+  bottom: 400px;
+  left: 400px;
+
+  width: 48px;
+  height: 48px;
+
+  background: url("img/le\ personnage.png");
+  background-size: contain;
+
+  transition: 2s;
+  transition-timing-function: ease-in;
+}
+
+.eagle {
+  position: absolute;
+  bottom: 100px;
+  right: 10px;
+
+  width: 60px;
+  height: 60px;
+
+  background: url("img/sta\ wars.png");
+  background-size: cover;
+}
+
+.missile {
+  position: absolute;
+  bottom: 100px;
+  right: 10px;
+
+  width: 60px;
+  height: 60px;
+
+  background: url("img/missile.png");
+  background-size: cover;
+}
+.gameover{
+display: none;
+color: rgb(37, 124, 102);
+font-size: 100px;
+justify-content: center;
+align-items: center;
+
+  
+}
+
+.start{
+  margin-top: 250px;
+  margin-left: 650px;
+  padding: 30px;
+  background-color: rgb(207, 71, 71);
+  font-size: 20px;
+  border: none;
+  border-radius: 15%;
+  color: white;
+}
